@@ -89,7 +89,7 @@ export default function Home() {
                 <p style={{ height: '64px'}} className="text-2xl font-semibold">
                   {nft.name}
                 </p>
-                <div style={{ height: '70px', overflow: 'hidden'}}>
+                <div style={{ height: '72px', overflow: 'hidden'}}>
                   <p className="text-gray-400">{nft.description}</p>
                 </div>
               </div>
