@@ -57,17 +57,13 @@ export default function MyAssets() {
           {
             nfts.map((nft, i) => (
               <div key={i} className="border shadow rounded-xl overflow-hidden">
-         
-
                 <Image
-                            src={nft.image}
-                            alt="Picture of the author"
-                            className="rounded"
-                            width={350}
-                            height={500} 
-                            // blurDataURL="data:..." automatically provided
-                            // placeholder="blur" // Optional blur-up while loading
-                          />
+                    src={nft.image}
+                    alt="Picture of the author"
+                    className="rounded"
+                    width={350}
+                    height={500} 
+                />
                 <div className="p-4 bg-black">
                   <p className="text-2xl font-bold text-white">Price - {nft.price} ETH</p>
                 </div>
