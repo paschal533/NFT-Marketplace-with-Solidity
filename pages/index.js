@@ -82,8 +82,6 @@ export default function Home() {
                   alt="Picture of the NFT"
                   width={500}
                   height={500}
-                  // blurDataURL="data:..." automatically provided
-                  // placeholder="blur" // Optional blur-up while loading
                 />
                         <div className="p-4">
                 <p style={{ height: '64px'}} className="text-2xl font-semibold">
