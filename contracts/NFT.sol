@@ -13,8 +13,7 @@ contract NFT is ERC721URIStorage {
     Counters.Counter private _tokenIds;
 
     //address of the NFT market place
-    //https://t.me/techjobsng
-
+     
     address contractAddress;
 
     constructor(address marketplaceAddress) ERC721("Paschalverse Tokens", "PNVT"){
